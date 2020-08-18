@@ -1,4 +1,4 @@
 #!/bin/bash
-#Eu sou Trybe e é isso aí! VQV
+#Eu sou TRyber e vou ter sucesso na programação!
 
 echo "Shell Script é demais!"
