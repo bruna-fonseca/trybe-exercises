@@ -1,1 +1,2 @@
-Esse repositório será usado para todos os projetos feitos durante meu período de estudo na Trybe
+
+This repository will be used for all exercises done during my study period at Trybe.
