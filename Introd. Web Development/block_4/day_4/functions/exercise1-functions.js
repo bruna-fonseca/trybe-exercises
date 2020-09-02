@@ -3,10 +3,9 @@ function palidromo(str) {
 
     for (let i = 0; i <= d; i++, d--)
     if (str.charAt(i) != str.charAt(d)) {
-        str = false
+            return false;
     } else {
-        str = true
+        return true
     }
 }
-
-palidromo(reviver)
+console.log(palidromo("arara"))
