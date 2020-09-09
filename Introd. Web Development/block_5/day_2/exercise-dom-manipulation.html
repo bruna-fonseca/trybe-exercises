@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        // 1- Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
+          let addTextHUm = document.createElement('h1');
+          document.body.appendChild(addTextHUm);
+          document.getElementsByTagName("h1")[0].innerText = "Exercício 5.2 - JavaScript DOM";
+
+        // 2-Adicione a tag div com a classe main-content como filho da tag body;
+          let divAdd = document.createElement('div');
+          divAdd.className = "main-content";
+          document.body.appendChild(divAdd)
+
+        // 3-Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
+          let divCenter = document.createElement('div');
+          divCenter.className = "center-content";
+          document.querySelector(".main-content").appendChild(divCenter);
+
+        // 4-Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+          let NewPElement = document.createElement('p');
+          NewPElement.innerText = "Hello World!!!!!";
+          document.querySelector(".center-content").appendChild(NewPElement);
+        // 5-Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
+          let divLeft = document.createElement('div');
+          divLeft.className = "left-content";
+          document.querySelector('.main-content').appendChild(divLeft);
+
+        // 6-Adicione a tag div com a classe right-content como filho da tag div criada no passo 2;
+          let divRight = document.createElement('div');
+          divRight.className = "right-content";
+          document.querySelector('.main-content').appendChild(divRight)
+        
+        /* 7-Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e 
+        classe small-image. Esse elemento deve ser filho do div criado no passo 5;*/
+          let addImage = document.createElement('img');
+          addImage.className = "small-image";
+          addImage.scr = "https://picsum.photos/200";
+          document.querySelector('.left-content').appendChild(addImage);
+
+        /* 8-Adicione uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. 
+        Essa lista deve ser filha do div criado no passo 6;*/
+        let createUl = document.createElement('ul');
+        document.querySelector('.right-content').appendChild(createUl);
+
+        let arrayNumbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+        for (let i in arrayNumbers) {
+        let createLi = document.createElement('li');
+        createLi.innerText = arrayNumbers[i];
+        document.querySelector('ul').appendChild(createLi);
+      }
+
+        // 9-Adicione 3 tags h3, todas sendo filhas do div criado no passo 2.
+          for (let i = 0; i <= 2; i += 1) {
+            let createH3 = document.createElement('h3');
+            createH3.innerText = "OIaaaaaaa";
+            document.querySelector('.main-content').appendChild(createH3);
+          }
+
+
+        // Parte 2 
+
+        
+          
+    </script>
+  </body>
+</html>
