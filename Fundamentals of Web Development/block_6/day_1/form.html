@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms html - Block 06</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="">Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" maxlength="40" required="required"><br>
+        <label for="">E-mail</label>
+        <input type="text" name="email" placeholder="Digite seu email aqui" maxlength="50" required="required"><br>
+        <label for="">CPF</label>
+        <input type="text" name="cpf" placeholder="Digite seu CPF aqui" maxlength="11" required="required"><br>
+        <label for="">Endereço</label>
+        <input type="text" name="endereco" placeholder="Digite seu endereço aqui" maxlength="200" required="required"><br>
+        <label for="">Cidade</label>
+        <input type="text" name="cidade" placeholder="Digite seu cidade aqui" maxlength="28" required="required"><br>
+        <label for="estados">Estado</label>
+        <select id="estados"></select><br>
+        <label for="casa">Tipo</label><input type="radio" name="tipo" id="casa" value="Casa" required="required">Casa
+        <label for="apto"></label><input type="radio" name="tipo" id="apto" value="Apartamento" required="required">Apartamento<br>
+
+
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+</html>
