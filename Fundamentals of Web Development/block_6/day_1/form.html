@@ -10,22 +10,39 @@
     <fieldset>
         <legend>Dados pessoais</legend>
         <label for="">Nome</label>
-        <input type="text" name="nome" placeholder="Digite seu nome aqui" maxlength="40" required="required"><br>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" maxlength="40" required="required" class="to-be-deleted nome"><br>
         <label for="">E-mail</label>
-        <input type="text" name="email" placeholder="Digite seu email aqui" maxlength="50" required="required"><br>
+        <input type="text" name="email" placeholder="Digite seu email aqui" maxlength="50" required="required" class="to-be-deleted"><br>
         <label for="">CPF</label>
-        <input type="text" name="cpf" placeholder="Digite seu CPF aqui" maxlength="11" required="required"><br>
+        <input type="text" name="cpf" placeholder="Digite seu CPF aqui" maxlength="11" required="required" class="to-be-deleted"><br>
         <label for="">Endereço</label>
-        <input type="text" name="endereco" placeholder="Digite seu endereço aqui" maxlength="200" required="required"><br>
+        <input type="text" name="endereco" placeholder="Digite seu endereço aqui" maxlength="200" required="required" class="to-be-deleted"><br>
         <label for="">Cidade</label>
-        <input type="text" name="cidade" placeholder="Digite seu cidade aqui" maxlength="28" required="required"><br>
+        <input type="text" name="cidade" placeholder="Digite seu cidade aqui" maxlength="28" required="required" class="to-be-deleted"><br>
         <label for="estados">Estado</label>
         <select id="estados"></select><br>
-        <label for="casa">Tipo</label><input type="radio" name="tipo" id="casa" value="Casa" required="required">Casa
-        <label for="apto"></label><input type="radio" name="tipo" id="apto" value="Apartamento" required="required">Apartamento<br>
-
-
+        <label for="casa">Tipo<input type="radio" name="tipo" id="casa" value="Casa" required="required" class="to-be-deleted">Casa</label>
+        <label for="apto"><input type="radio" name="tipo" id="apto" value="Apartamento" required="required">Apartamento</label><br>
     </fieldset>
+    
+    <fieldset>
+        <textarea  id="curriculo" required="required" placeholder="Conte mais sobre sua carreira" cols="100" rows="5" class="to-be-deleted"></textarea>
+        <p>Breve descrição de 1000 caracteres sobre sua carreira.</p>
+        <label for="cargo">
+        Cargo
+        <input type="text" id="cargo" placeholder="Digite seu cargo." required="required" maxlength="40" class="to-be-deleted">
+        </label><br>
+        <label for="">
+            Descrição de cargo
+            <input type="text" id="descricao-cargo" maxlength="500" required="required" class="to-be-deleted">
+        </label><br>
+        <label for="">
+            Data de início
+        <input type="date" required="required" class="to-be-deleted">
+    </label><br>
+    </fieldset>
+    <button type="submit">Enviar</button>
+    <button class="delete-all">Limpar campos</button>
     <script src="script.js"></script>
 </body>
 </html>
