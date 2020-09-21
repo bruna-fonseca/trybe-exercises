@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulma.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Forms html - Block 06</title>
 </head>
 <body>
-    <fieldset>
-        <legend>Dados pessoais</legend>
+    <form action="">
+    <div class="field">
         <label for="">Nome</label>
-        <input type="text" name="nome" placeholder="Digite seu nome aqui" maxlength="40" required="required" class="to-be-deleted nome"><br>
+            <input type="text" name="nome" placeholder="Digite seu nome aqui" maxlength="40" required="required" class="to-be-deleted nome"><br>
         <label for="">E-mail</label>
-        <input type="text" name="email" placeholder="Digite seu email aqui" maxlength="50" required="required" class="to-be-deleted"><br>
+            <input type="text" name="email" placeholder="Digite seu email aqui" maxlength="50" required="required" class="to-be-deleted"><br>
         <label for="">CPF</label>
-        <input type="text" name="cpf" placeholder="Digite seu CPF aqui" maxlength="11" required="required" class="to-be-deleted"><br>
+            <input type="text" name="cpf" placeholder="Digite seu CPF aqui" maxlength="11" required="required" class="to-be-deleted"><br>
         <label for="">Endereço</label>
-        <input type="text" name="endereco" placeholder="Digite seu endereço aqui" maxlength="200" required="required" class="to-be-deleted"><br>
+            <input type="text" name="endereco" placeholder="Digite seu endereço aqui" maxlength="200" required="required" class="to-be-deleted"><br>
         <label for="">Cidade</label>
-        <input type="text" name="cidade" placeholder="Digite seu cidade aqui" maxlength="28" required="required" class="to-be-deleted"><br>
+            <input type="text" name="cidade" placeholder="Digite seu cidade aqui" maxlength="28" required="required" class="to-be-deleted"><br>
         <label for="estados">Estado</label>
-        <select id="estados"></select><br>
+            <select id="estados"></select><br>
         <label for="casa">Tipo<input type="radio" name="tipo" id="casa" value="Casa" required="required" class="to-be-deleted">Casa</label>
         <label for="apto"><input type="radio" name="tipo" id="apto" value="Apartamento" required="required">Apartamento</label><br>
-    </fieldset>
+    </div>
     
-    <fieldset>
+    <!--  -->
         <textarea  id="curriculo" required="required" placeholder="Conte mais sobre sua carreira" cols="100" rows="5" class="to-be-deleted"></textarea>
         <p>Breve descrição de 1000 caracteres sobre sua carreira.</p>
         <label for="cargo">
@@ -40,9 +41,9 @@
             Data de início
         <input type="date" required="required" class="to-be-deleted">
     </label><br>
-    </fieldset>
-    <button type="submit">Enviar</button>
-    <button class="delete-all">Limpar campos</button>
+    <button type="submit">Enviar</button>   
+    <button type="reset">Limpar campos</button>
+</form>
     <script src="script.js"></script>
 </body>
 </html>
