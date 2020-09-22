@@ -20,31 +20,31 @@ The program has more than 1,500 hours of classroom and online classes, covers fu
 
 ##### Module 3: Introduction - HTML & CSS
 
- - [x] 3-1: HTML & CSS - Page structures
- - [x] 3-2: HTML & CSS - Getting Started with CSS
- - [x] 3-3: HTML & CSS - Selectors and positioning
- - [x] 3-4: Semantic HTML
- - [x] 3-5: Project - HTML & CSS
+ - [x] 3-1: _HTML & CSS - Page structures_
+ - [x] 3-2: _HTML & CSS - Getting Started with CSS_
+ - [x] 3-3: _HTML & CSS - Selectors and positioning_
+ - [x] 3-4: -Semantic HTML_
+ - [x] 3-5: _Project - HTML & CSS_
 
 ##### Module 4: Introduction - JavaScript
 
- - [x] 4-1: JavaScript - Getting Started
- - [x] 4-2: JavaScript - For Array and Loop
- - [x] 4-3: JavaScript - Programming Logic and Algorithms
- - [x] 4-4: JavaScript - Objects and functions
- - [x] 4-5: Project - Playground Functions
+ - [x] 4-1: _JavaScript - Getting Started_
+ - [x] 4-2: _JavaScript - For Array and Loop_
+ - [x] 4-3: _JavaScript - Programming Logic and Algorithms_
+ - [x] 4-4: _JavaScript - Objects and functions_
+ - [x] 4-5: _Project - Playground Functions_
 
 ##### Module 5: Introduction - JavaScript - HTML
 
-- [x] 5-1: JavaScript - DOM and selectors
-- [x] 5-2: JavaScript - Working with elements
-- [x] 5-3: JavaScript - Events
-- [x] 5-4: JavaScript - Web Storage
-- [x] 5-5: Project - Meme Generator
-- [x] 5-6: Project - Art with Pixels
-- [x] 5-7: Project - To Do List
-- [ ]  5-8: Bonus Project - Color Guess
-- [ ] 5-9: Bonus Project - Mistery Letter
+- [x] 5-1: _JavaScript - DOM and selectors_
+- [x] 5-2: _JavaScript - Working with elements_
+- [x] 5-3: _JavaScript - Events_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _Project - Meme Generator_
+- [x] 5-6: _Project - Art with Pixels_
+- [x] 5-7: _Project - To Do List_
+- [ ]  5-8: _Bonus Project - Color Guess_
+- [ ] 5-9: _Bonus Project - Mistery Letter_
 
 ##### Module 6 - Advanced HTML and CSS
 
@@ -53,4 +53,4 @@ The program has more than 1,500 hours of classroom and online classes, covers fu
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _Responsive CSS - Mobile First_
-- [ ] 6-6: _Project - Facebook homepage
+- [ ] 6-6: _Project - Facebook homepage_
