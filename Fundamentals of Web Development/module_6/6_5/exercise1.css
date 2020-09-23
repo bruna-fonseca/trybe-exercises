@@ -1,0 +1,53 @@
+body {
+    margir: 5px;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 19px;
+}
+
+img {
+    /* max-width: 100%; */
+}
+
+figure {
+    margin: 20px;
+}   
+
+@media screen and (min-width: 1000px) {
+    * {
+        margin: 0px;
+    }
+    body {
+        background-color: red;
+        font-size: 22px;  
+    }
+    
+    p {
+        font-size: 22px;
+    }
+
+    .img-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1500) {
+    body {
+        background-color: green;
+    }
+}
