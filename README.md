@@ -52,5 +52,5 @@ The program has more than 1,500 hours of classroom and online classes, covers fu
 - [x] 6-2: _Libraries JavaScript & Frameworks CSS_
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _Responsive CSS - Mobile First_
-- [ ] 6-6: _Project - Facebook homepage_
+- [x] 6-5: _Responsive CSS - Mobile First_
+- [x] 6-6: _Project - Facebook homepage_
