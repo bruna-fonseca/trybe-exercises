@@ -54,3 +54,10 @@ The program has more than 1,500 hours of classroom and online classes, covers fu
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _Responsive CSS - Mobile First_
 - [x] 6-6: _Project - Facebook homepage_
+
+##### Module 7 - JavaScript ES6 & Unit Testing 
+
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Objects_
+- [x] 7-3: _Unit Testing_
+- [ ] 7-4: _Project - JavaScrip Unit Testing_
