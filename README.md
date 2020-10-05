@@ -60,4 +60,12 @@ The program has more than 1,500 hours of classroom and online classes, covers fu
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Unit Testing_
-- [ ] 7-4: _Project - JavaScrip Unit Testing_
+- [x] 7-4: _Project - JavaScrip Unit Testing_
+
+##### Module 8 - JavaScript ES6 - Higher Order Functions
+
+- [x] 8-1: _JavaScript ES6 - HOF: forEach, find, some, every and sort_
+- [ ] 8-2: _JavaScript ES6 - HOF: map and filter_
+- [ ] 8-3: _JavaScript ES6 - HOF: reduce_
+- [ ] 8-4: _JavaScript ES6 - HOF: spread operator, rest parameter, destructing, etc_
+- [ ] 8-5: _Project - Zoo Functions_
