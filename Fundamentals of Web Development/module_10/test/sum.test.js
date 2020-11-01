@@ -1,7 +1,7 @@
 const sum = require('../src/sum.js');
 
 describe('testing the sum function', () => {
-  it ('should be 9 the sum with 4 and 5', () => {
+  it('should be 9 the sum with 4 and 5', () => {
     expect(sum(5,4)).toBe(9);
   });
 
