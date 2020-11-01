@@ -65,7 +65,21 @@ The program has more than 1,500 hours of classroom and online classes, covers fu
 ##### Module 8 - JavaScript ES6 - Higher Order Functions
 
 - [x] 8-1: _JavaScript ES6 - HOF: forEach, find, some, every and sort_
-- [ ] 8-2: _JavaScript ES6 - HOF: map and filter_
-- [ ] 8-3: _JavaScript ES6 - HOF: reduce_
-- [ ] 8-4: _JavaScript ES6 - HOF: spread operator, rest parameter, destructing, etc_
-- [ ] 8-5: _Project - Zoo Functions_
+- [x] 8-2: _JavaScript ES6 - HOF: map and filter_
+- [x] 8-3: _JavaScript ES6 - HOF: reduce_
+- [x] 8-4: _JavaScript ES6 - HOF: spread operator, rest parameter, destructing, etc_
+- [x] 8-5: _Project - Zoo Functions_
+
+##### Module 9 - Asynchronous JavaScript
+
+- [x] 9-1: _Introduction to asynchronous JavaScript and callbacks_
+- [x] 9-2: _JavaScript promises_
+- [x] 9-3: _Project - Shopping Cart_
+
+##### Module 10 - Understanding Jest
+
+- [x] 10-1: _Jest: first steps_
+- [x] 10-2: _Jest: asynchronous tests_
+- [x] 10-3: _Jest: mock functions _
+- [] 10-4: _Project - asynchronous test and mocking_
+
